@@ -8,6 +8,7 @@ while opcion != "5":
     print("3. Multiplicar")
     print("4. Dividir")
     print("5. Salir")
+    print("6. Sorpresa")
 
     opcion = input("Elige una opción: ")
 
@@ -46,7 +47,14 @@ while opcion != "5":
     elif opcion == "5":
         print("saliendo del programa bay")
 
+
+    elif opcion == "6":
+        print("Hola :)")
+        input()
+
     else:
         print("Opción inválida. Intenta de nuevo :P ")
         input()
+
+
 
