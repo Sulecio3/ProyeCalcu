@@ -47,6 +47,6 @@ while opcion != "5":
         print("saliendo del programa bay")
 
     else:
-        print("Opción inválida. Intenta de nuevo")
+        print("Opción inválida. Intenta de nuevo :P ")
         input()
 
