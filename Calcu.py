@@ -9,33 +9,43 @@ while opcion != "5":
     print("4. Dividir")
     print("5. Salir")
 
-    opcion = input("Elige una opción (1-5): ")
+    opcion = input("Elige una opción: ")
 
     if opcion == "1":
+        print("Bienvenido a la suma")
         a = float(input("Ingresa el primer número: "))
         b = float(input("Ingresa el segundo número: "))
         print("Resultado:", a + b)
+        input()
 
     elif opcion == "2":
+        print("Bienvenido a la resta")
         a = float(input("Ingresa el primer número: "))
         b = float(input("Ingresa el segundo número: "))
         print("Resultado:", a - b)
+        input()
 
     elif opcion == "3":
+        print("Bienvenido a la multiplicacion")
         a = float(input("Ingresa el primer número: "))
         b = float(input("Ingresa el segundo número: "))
         print("Resultado:", a * b)
+        input()
 
     elif opcion == "4":
+        print("Bienvenido a la division")
         a = float(input("Ingresa el primer número: "))
         b = float(input("Ingresa el segundo número: "))
         if b == 0:
             print("¡Error! No se puede dividir entre 0.")
+            input()
         else:
             print("Resultado:", a / b)
+            input()
 
     elif opcion == "5":
         print("saliendo del programa")
 
     else:
         print("Opción inválida. Intenta de nuevo.")
+        input()
