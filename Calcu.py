@@ -35,7 +35,7 @@ while opcion != "5":
             print("Resultado:", a / b)
 
     elif opcion == "5":
-        print("¡Adiós!")
+        print("saliendo del programa")
 
     else:
         print("Opción inválida. Intenta de nuevo.")
