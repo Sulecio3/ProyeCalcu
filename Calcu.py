@@ -20,3 +20,22 @@ while opcion != "5":
         a = float(input("Ingresa el primer número: "))
         b = float(input("Ingresa el segundo número: "))
         print("Resultado:", a - b)
+
+    elif opcion == "3":
+        a = float(input("Ingresa el primer número: "))
+        b = float(input("Ingresa el segundo número: "))
+        print("Resultado:", a * b)
+
+    elif opcion == "4":
+        a = float(input("Ingresa el primer número: "))
+        b = float(input("Ingresa el segundo número: "))
+        if b == 0:
+            print("¡Error! No se puede dividir entre 0.")
+        else:
+            print("Resultado:", a / b)
+
+    elif opcion == "5":
+        print("¡Adiós!")
+
+    else:
+        print("Opción inválida. Intenta de nuevo.")
